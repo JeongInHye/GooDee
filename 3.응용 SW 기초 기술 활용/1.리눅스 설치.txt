@@ -1,0 +1,43 @@
+yum -y update			업데이트
+--------------------------------------------------------------------------------
+systemctl start sshd		푸티로 접속하기위해 시작
+--------------------------------------------------------------------------------
+cd  /etc/sysconfig/network-scripts	네트워크 고정 설정
+vi ifcfg-enp0s3			파일 열기
+
+BOOTPROTO=static		제일 아래에 넣기
+IPADDR=192.168.3.***
+NETMASK=255.255.255.0
+GATEWAY=192.168.3.1
+DNS1=168.126.63.1
+DNS2=168.126.63.2
+
+init 6				재시작
+--------------------------------------------------------------------------------
+yum -y install net-tools		방화벽에대한 설치
+netstat -tnlp			현재 오픈되어 있는 포트 확인
+--------------------------------------------------------------------------------
+cd /etc/yum.repos.d/ 		이동
+vi MariaDB.repo			파일 만들기
+
+[mariadb]				내용 입력
+name = MariaDB
+baseurl = http://yum.mariadb.org/10.3/centos7-amd64
+gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
+gpgcheck=1
+
+sudo yum install -y MariaDB-server MariaDB-client -> 마리아디비 설치
+yum list --showduplicates MariaDB-server -> 설치 확인
+systemctl start mariadb -> 마리아디비 시작
+--------------------------------------------------------------------------------
+mysql -uroot			마리아디비 접속
+use mysql			사용자권한 변경
+create user 'root'@'%' identified by'1234'; 
+grant all privileges on *.* to 'root'@'%';
+flush privileges;
+--------------------------------------------------------------------------------
+yum -y install httpd		웹 설치
+systemctl start httpd		웹 시작
+--------------------------------------------------------------------------------
+firewall-cmd --permanent --add-port=3306/tcp -> 웹80 		방화벽 열기
+firewall-cmd --reload					재로드

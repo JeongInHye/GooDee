@@ -1,0 +1,9 @@
+vi /etc/my.cnf (mariadb 환경설정 파일)
+
+- 파일공유(파일질라 사용)
+호스트 : sftp://192.168.3.34
+사용자 : root
+비밀번호 : 1234
+포트 : 22
+
+systemctl restart mariadb (mariadb 재시작)
