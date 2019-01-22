@@ -9,7 +9,7 @@
 > * [데이터 입출력 구현](https://github.com/JeongInHye/GooDee/tree/master/9.%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%9E%85%EC%B6%9C%EB%A0%A5%20%EA%B5%AC%ED%98%84)
 > * [통합 구현](https://github.com/JeongInHye/GooDee/tree/master/10.%ED%86%B5%ED%95%A9%20%EA%B5%AC%ED%98%84)
 > * [제품소프트웨어 패키징](https://github.com/JeongInHye/GooDee/tree/master/11.%EC%A0%9C%ED%92%88%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%ED%8C%A8%ED%82%A4%EC%A7%95)
-> * [정보시스템 이행]()
+> * [정보시스템 이행](https://github.com/JeongInHye/GooDee/tree/master/12.%EC%A0%95%EB%B3%B4%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%9D%B4%ED%96%89)
 > * [애플리케이션 테스트 수행]()
 > * [애플리케이션 테스트 관리]()
 > * [애플리케이션 배포]()
