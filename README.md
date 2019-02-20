@@ -12,6 +12,6 @@
 > * [정보시스템 이행](https://github.com/JeongInHye/GooDee/tree/master/12.%EC%A0%95%EB%B3%B4%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%9D%B4%ED%96%89)
 > * [애플리케이션 테스트 수행](https://github.com/JeongInHye/GooDee/tree/master/13.%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%88%98%ED%96%89)
 > * [애플리케이션 테스트 관리](https://github.com/JeongInHye/GooDee/tree/master/14.%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B4%80%EB%A6%AC)
-> * [애플리케이션 배포]()
+> * [애플리케이션 배포](https://github.com/JeongInHye/GooDee/tree/master/15.%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EB%B0%B0%ED%8F%AC)
 > * [프로젝트]()
 
